@@ -55,6 +55,12 @@ body {
 	-webkit-text-size-adjust: none;
 }
 
+.listIcons{
+	display: flex;
+	width: 100px;
+	height: 100px;
+}
+
 mark {
 	background-color: transparent;
 	color: inherit;
@@ -2374,21 +2380,23 @@ input, select, textarea {
 /* Feature Icons */
 
 	ul.feature-icons {
+		display: flex;
 		list-style: none;
 		padding-left: 0;
 	}
 
 		ul.feature-icons li {
 			text-decoration: none;
-			display: inline-block;
+			display: flex;
+			flex-direction: row;
 			margin: 0 0 1.6875em 0;
 			padding: 0.35em 0 0 3.5em;
-			position: relative;
-			vertical-align: top;
-			width: 48%;
+			/* position: relative; */
+			/* vertical-align: top; */
+			/* width: 48%; */
 		}
 
-			ul.feature-icons li:before {
+			/* ul.feature-icons li:before {
 				-moz-osx-font-smoothing: grayscale;
 				-webkit-font-smoothing: antialiased;
 				display: inline-block;
@@ -2413,7 +2421,7 @@ input, select, textarea {
 				text-align: center;
 				top: 0;
 				width: 2.5em;
-			}
+			} */
 
 /* Icons */
 
